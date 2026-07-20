@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  /* Özel rengini tanımlıyorsun */
+  --color-button: #F1EFF1;
+  --color-dashboard : #F6F3F5;
+  
+  /* İleride başka özel şeyler eklemek istersen: */
+  /* --color-brand: #10b981; */
+  /* --font-display: 'Inter', sans-serif; */
+}
