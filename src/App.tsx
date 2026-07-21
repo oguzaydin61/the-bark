@@ -2,6 +2,11 @@ import { useState } from 'react'
 import Sidebar from './components/Sidebar'
 import Dashboard from './views/Dashboard'
 import './App.css'
+import CustomerRequests from './views/CustomerRequests'
+import Projects from './views/Projects'
+import Purchases from './views/Purchase'
+import Finance from './views/Finance'
+import LogHistory from './views/LogHistory'
 
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard')
@@ -14,8 +19,12 @@ function App() {
 
       <main className="flex-1 overflow-y-auto">
         {activeTab === 'dashboard' && <Dashboard />}
-        {activeTab === 'tasks' && <div className="text-2xl font-bold">Görevler Modülü Çok Yakında...</div>}
-        {activeTab === 'settings' && <div className="text-2xl font-bold">Ayarlar Modülü Çok Yakında...</div>}
+        {activeTab === 'tasks' && <CustomerRequests/>}
+        {activeTab === 'projects' && <Projects/>}
+         {activeTab === 'purchase' && <Purchases/>}
+         {activeTab === 'finance' && <Finance/>}
+         {activeTab === 'faaliyet' && <LogHistory/>}
+
       </main>
 
     </div>
