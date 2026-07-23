@@ -4,7 +4,7 @@ import { useAppDispatch, useAppSelector } from '../store'
 import { updatePurchaseStatus, updatePurchaseInput } from '../store/slices/purchasesSlice'
 import { addProjectExpense } from '../store/slices/projectsSlice'
 import { addLog } from '../store/slices/logSlice'
-import { addFinanceRecor } from '../store/slices/financeSlice'
+import { addFinanceRecord } from '../store/slices/financeSlice'
 
 
 
