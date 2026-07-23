@@ -80,7 +80,7 @@ function CustomerRequests() {
                         className={`px-3 py-1.5 rounded-full text-xs font-semibold ${
                           request.status === 'Converted'
                             ? 'bg-blue-100 text-blue-700 border border-blue-200'
-                            : request.status === 'Converted'
+                            : ((request.status as string) === 'Converted')
                             ? 'bg-emerald-100 text-emerald-700'
                             : 'bg-amber-100 text-amber-700'
                         }`}
@@ -142,7 +142,7 @@ function CustomerRequests() {
                   className={`inline-block px-3 py-1 rounded-full text-sm font-semibold mt-1 ${
                     selectedRequest.status === 'Converted'
                       ? 'bg-blue-100 text-blue-700'
-                      : selectedRequest.status === 'Converted'
+                      : ((selectedRequest.status as string) === 'Converted')
                       ? 'bg-emerald-100 text-emerald-700'
                       : 'bg-amber-100 text-amber-700'
                   }`}

@@ -6,7 +6,7 @@ export interface CustomerRequest {
   title: string
   description: string
   estimatedBudget: number
-  status: 'Pending' | 'Converted'
+  status: 'Pending' | 'Rejected' | 'Converted';
   date: string
   projectId?: string
 }

@@ -14,7 +14,7 @@ import {
   Globe
 } from 'lucide-react'
 import { useAppSelector } from '../store'
-import type { LogHistory } from '../store/slices/logSlice'
+import type { LogHistory  as LogHistoryType} from '../store/slices/logSlice'
 
 function LogHistory() {
   const [searchQuery, setSearchQuery] = useState('')
@@ -24,7 +24,7 @@ function LogHistory() {
   const logs = useAppSelector((state) => state.logs?.items || [])
 
   
-  const getLogStyle = (actionType: LogHistory['actionType']) => {
+  const getLogStyle = (actionType: LogHistoryType['actionType']) => {
     switch (actionType) {
       case 'SATIN_ALMA_ONAY':
         return {
@@ -202,7 +202,7 @@ function LogHistory() {
                           <Truck size={11} /> Tedarikçi
                         </span>
                         <span className="font-semibold text-gray-700 truncate mt-0.5">
-                          {log.supplier || '-'}
+                          
                         </span>
                       </div>
 

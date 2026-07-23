@@ -6,7 +6,7 @@ import CustomerRequests from './views/CustomerRequests'
 import Projects from './views/Projects'
 import Purchases from './views/Purchase'
 import Finance from './views/Finance'
-import LogHistory from './views/LogHistory'
+import LogHistory  from './views/LogHistory'
 
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard')
