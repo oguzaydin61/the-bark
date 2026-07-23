@@ -11,9 +11,9 @@ import type {
 
 
 export const CUSTOMER_REQUESTS: CustomerRequest[] = [
-  { id: 'REQ-101', customerName: 'Ahmet Yılmaz', company: 'Yılmaz A.Ş.', title: 'Alpha CRM Yükseltmesi', description: 'Mevcut CRM altyapısının buluta taşınması.', estimatedBudget: 50000, status: 'Converted', date: '2026-07-10', projectId: 'PRJ-001' },
+  { id: 'REQ-101', customerName: 'Ahmet Yılmaz', company: 'Yılmaz A.Ş.', title: 'Alpha CRM Yükseltmesi', description: 'Mevcut CRM altyapısının buluta taşınması.', estimatedBudget: 50000, status: 'Pending', date: '2026-07-10', projectId: 'PRJ-001' },
   { id: 'REQ-102', customerName: 'Elena Popescu', company: 'Popescu Logistics', title: 'Beta Ofis Genişletme & API', description: 'Lojistik takip API entegrasyonu.', estimatedBudget: 30000, status: 'Converted', date: '2026-07-12', projectId: 'PRJ-002' },
-  { id: 'REQ-103', customerName: 'Can Demir', company: 'Demir Teknoloji', title: 'Gamma Mobil Uygulama', description: 'Cross-platform mobil uygulama geliştirme.', estimatedBudget: 20000, status: 'Converted', date: '2026-07-15', projectId: 'PRJ-003' },
+  { id: 'REQ-103', customerName: 'Can Demir', company: 'Demir Teknoloji', title: 'Gamma Mobil Uygulama', description: 'Cross-platform mobil uygulama geliştirme.', estimatedBudget: 20000, status: 'Pending', date: '2026-07-15', projectId: 'PRJ-003' },
   { id: 'REQ-104', customerName: 'Mehmet Kaya', company: 'Kaya Gıda', title: 'SEO ve Pazarlama Paketi', description: 'E-ticaret sitesi SEO optimizasyonu.', estimatedBudget: 15000, status: 'Pending', date: '2026-07-18' },
   { id: 'REQ-105', customerName: 'Sofia Rossi', company: 'Rossi Design', title: 'Güvenlik Denetimi ve Penetrasyon', description: 'Sistem güvenlik açıkları tespiti.', estimatedBudget: 10000, status: 'Pending', date: '2026-07-20' }
 ]

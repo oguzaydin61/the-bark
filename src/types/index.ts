@@ -1,4 +1,4 @@
-// --- CUSTOMER REQUEST TYPES ---
+
 export interface CustomerRequest {
   id: string
   customerName: string
@@ -11,29 +11,35 @@ export interface CustomerRequest {
   projectId?: string
 }
 
-// --- PROJECT TYPES ---
+
 export interface ProjectNeed {
   id: number
   name: string
   estimatedPrice: number
-  status: string
+  status: 'Beklemede' | 'Satın Alma Talebi Oluşturuldu'
 }
 
 export interface Project {
   id: string
-  requestId?: string
+  name: string
   customerName: string
   company: string
-  name: string
   budget: number
   spentBudget: number
-  status: string
   startDate: string
+  status: string
   tasks: string[]
   needs: ProjectNeed[]
 }
 
-// --- PURCHASE REQUEST TYPES ---
+export interface ProjectsState {
+  items: Project[]
+}
+export interface FinanceState {
+  items: FinanceRecord[]
+}
+
+
 export interface PurchaseRequest {
   id: string
   projectId: string
@@ -46,20 +52,19 @@ export interface PurchaseRequest {
   date: string
 }
 
-// --- FINANCE TYPES ---
+
 export interface FinanceRecord {
   id: string
-  projectId: string
   projectName: string
-  customerName: string
+  customerName?: string
   item: string
-  supplier: string
-  amount: number
+  supplier?: string
+  purchaseRequestId?: string
   date: string
-  purchaseRequestId: string
+  amount: number
+  type?: 'INCOME' | 'EXPENSE'
 }
 
-// --- ACTIVITY LOG TYPES ---
 export interface ActivityLog {
   id: string
   type: 'CONVERT_PROJECT' | 'CREATE_PURCHASE' | 'APPROVE_PURCHASE' | 'REJECT_PURCHASE'
