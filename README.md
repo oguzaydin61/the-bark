@@ -2,6 +2,10 @@
 
 Bu proje, Müşteri Talebinden Finans Kaydına Mini İş Akışı simülasyonu olarak The-Bark için bir case study çalışmasıdır.
 
+## 🔗 Demo
+
+https://the-bark-2hea-git-main-oguzaydin61s-projects.vercel.app/
+
 ## 🚀 Teknolojiler ve Kütüphaneler
 
 Proje, güncel ve modern web teknolojileri üzerine inşa edilmiştir:
