@@ -4,7 +4,7 @@ Bu proje, Müşteri Talebinden Finans Kaydına Mini İş Akışı simülasyonu o
 
 ## 🔗 Demo
 
-https://the-bark-2hea-git-main-oguzaydin61s-projects.vercel.app/
+https://the-bark-pearl.vercel.app/
 
 ## 🚀 Teknolojiler ve Kütüphaneler
 
