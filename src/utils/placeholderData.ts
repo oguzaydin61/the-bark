@@ -21,7 +21,7 @@ export const CUSTOMER_REQUESTS: CustomerRequest[] = [
 export const PROJECTS: Project[] = [
   {
     id: 'PRJ-001',
-    requestId: 'REQ-101',
+    
     customerName: 'Ahmet Yılmaz',
     company: 'Yılmaz A.Ş.',
     name: 'Alpha CRM Yükseltmesi',
@@ -41,7 +41,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'PRJ-002',
-    requestId: 'REQ-102',
+    
     customerName: 'Elena Popescu',
     company: 'Popescu Logistics',
     name: 'Beta Ofis Genişletme & API',
@@ -60,7 +60,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'PRJ-003',
-    requestId: 'REQ-103',
+   
     customerName: 'Can Demir',
     company: 'Demir Teknoloji',
     name: 'Gamma Mobil Uygulama',
@@ -85,9 +85,9 @@ export const PURCHASES_DATA: PurchaseRequest[] = [
 ]
 
 export const FINANCE_DATA: FinanceRecord[] = [
-  { id: 'FIN-1001', projectId: 'PRJ-001', projectName: 'Alpha CRM Yükseltmesi', customerName: 'Ahmet Yılmaz', item: 'Bulut Sunucu Yükseltmesi', supplier: 'AWS Cloud', amount: 4500, date: '2026-07-14', purchaseRequestId: '#REQ-2049' },
-  { id: 'FIN-1002', projectId: 'PRJ-001', projectName: 'Alpha CRM Yükseltmesi', customerName: 'Ahmet Yılmaz', item: 'UI Kit Lisansı', supplier: 'Tailwind UI', amount: 500, date: '2026-07-15', purchaseRequestId: '#REQ-2045' },
-  { id: 'FIN-1003', projectId: 'PRJ-002', projectName: 'Beta Ofis Genişletme & API', customerName: 'Elena Popescu', item: 'SSL Sertifikası', supplier: 'DigiCert', amount: 2100, date: '2026-07-16', purchaseRequestId: '#REQ-2030' }
+  { id: 'FIN-1001', projectName: 'Alpha CRM Yükseltmesi', customerName: 'Ahmet Yılmaz', item: 'Bulut Sunucu Yükseltmesi', supplier: 'AWS Cloud', amount: 4500, date: '2026-07-14', purchaseRequestId: '#REQ-2049' },
+  { id: 'FIN-1002', projectName: 'Alpha CRM Yükseltmesi', customerName: 'Ahmet Yılmaz', item: 'UI Kit Lisansı', supplier: 'Tailwind UI', amount: 500, date: '2026-07-15', purchaseRequestId: '#REQ-2045' },
+  { id: 'FIN-1003', projectName: 'Beta Ofis Genişletme & API', customerName: 'Elena Popescu', item: 'SSL Sertifikası', supplier: 'DigiCert', amount: 2100, date: '2026-07-16', purchaseRequestId: '#REQ-2030' }
 ]
 
 export const ACTIVITY_LOGS: ActivityLog[] = [

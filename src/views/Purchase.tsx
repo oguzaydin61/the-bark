@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Check, X, AlertCircle } from 'lucide-react'
 import { useAppDispatch, useAppSelector } from '../store'
 import { updatePurchaseStatus, updatePurchaseInput } from '../store/slices/purchasesSlice'
 import { addProjectExpense } from '../store/slices/projectsSlice'
 import { addLog } from '../store/slices/logSlice'
-import { addFinanceRecord } from '../store/slices/financeSlice'
+import { addFinanceRecor } from '../store/slices/financeSlice'
+
 
 
 function Purchases() {
