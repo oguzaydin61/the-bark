@@ -20,7 +20,7 @@ function CustomerRequests() {
         name: request.title,
         client: request.customerName,
         budget: request.estimatedBudget,
-        //company : request.company
+        company : request.company
       })
     )
 
