@@ -7,11 +7,11 @@ const initialState: ProjectsState = {
   items: [
     {
       id: 'PRJ-101',
-      name: 'E-Ticaret Altyapı Yenileme',
-      customerName: 'Ahmet Yılmaz',
-      company: 'TechCorp A.Ş.',
-      budget: 15000,
-      spentBudget: 3200,
+      name: 'Beta Ofis Genişletme & API',
+      customerName: 'Elena Popescu',
+      company: 'Popescu Logistics',
+      budget: 30000,
+      spentBudget: 0,
       startDate: '2026-01-15',
       status: 'Devam Ediyor',
       tasks: ['Veritabanı taşınması', 'UI tasarımlarının onaylanması'],
